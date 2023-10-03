@@ -1,0 +1,40 @@
+.content-contact {
+    height: 80vh;
+    /* background-color: #d6e6f2; */
+    display:block; 
+    margin-top: 20px;
+    position: relative;
+overflow: hidden;
+}
+.content-contact::after{
+    content: "";
+    background: url(../images/bgimage.jpg);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.2;
+  object-fit:cover;
+  /* border-radius: 10px; */
+  z-index: -1;
+}
+.form-box input,button,textarea{
+margin-top: 10px;    
+font-family: var(--font3);
+/* font-size: x; */
+
+}
+.form-box input,textarea{
+    width: 44vw;
+    padding: 8px 6px;
+    margin: 7px 0px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contact-form{
+}
+.form-box button{
+    /* width: 200px; */
+    padding: 10px 30px;
+}

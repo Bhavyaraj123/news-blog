@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/util.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+
+    <title>Responsive blog</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navigation max-width-1 m-auto">
+      <div class="nleft">
+        <a href="/"><span> BLOG-SPOT <span><i class="fa-regular fa-newspaper"></i></span></span></a>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/">ABOUT</a></li>
+          <li><a href="/contact.html">CONTACT </a></li>
+        </ul>
+      </div>
+
+      <div class="nright">
+        <form action="/search.html" method="get">
+          <input
+            class="fcontrol"
+            type="text"
+            name="querry"
+            placeholder="Search Articals"
+            required
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+      <hr />
+    </div>
+
+    <div class="content-contact max-width-1 m-auto">
+      <h2 class="font3 mx-1">Feel free to contact us</h2>
+      <div class="contact-form mx-1">
+        <div class="form-box">
+          <input type="text" placeholder="Enter your name" required />
+        </div>
+        <div class="form-box">
+          <input type="text" placeholder="Enter your Number" required />
+        </div>
+        <div class="form-box">
+          <input type="email" placeholder="Enter your E-Mail" required />
+        </div>
+        <div class="form-box">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="express your thought here"
+            required
+          ></textarea>
+        </div>
+        <div class="form-box">
+          <button class="btn">Submit</button>
+        </div>
+      </div>
+
+      <!-- <div class="footer max-width-1 m-auto my-2">thanks for visiting Blog-Spot</div> -->
+    </div>
+    <div class="footer max-width-1 m-auto my-2">
+      thanks for visiting Blog-Spot
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+@media  screen  and (max-width:1200px) {
+
+
+    .navigation{
+        flex-direction: column; 
+        margin-bottom: 23px;
+    }
+    .nleft{
+        flex-direction: column;
+        text-align: center;
+    }
+    .rightcontent{
+        display: none;
+    }
+    .home-arts {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .home-arts img{
+        width: 250px;
+    }
+    .year-box  div{
+        margin: 0;
+        padding: 5px;
+    }
+    .year-box{
+        
+       
+        font-size: 11px;
+        top: 20px;
+        display: flex;
+        /* margin-top: 0; */
+    }
+    .nleft ul li{
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+}
+
+@media  screen  and (max-width:1839px){
+.row{
+    display: flex;
+    flex-direction: column;
+}
+}
